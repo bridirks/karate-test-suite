@@ -41,9 +41,7 @@ Feature files labeled `Regression` are being  split between two categories refer
 2. Under `Workflows` select Karate<br>
 3. Highlighted in blue is the message `This workflow has a workflow_dispatch event trigger.` To the right of this message is a drop-down menu labeled `Run Workflow`.<br>
 4. Optional: Select desired environment<br>
-5. Required: Select the desired test type from the drop-down menu.<br>
-6. Required: Select the desired API from the drop-down menu.<br>
-(if the cors or security test types are selected, the matching option under API Selection needs to be selected) <br>
+5. Required: Select the desired test tag from the drop-down menu.<br>
 7. Select `Run Workflow`<br>
 8. Results will be viewable in an artifact folder after the tests have completed. These results will not be formatted unless you unzip the artifact folder<br>
 <h3 align="center">Optional - to View Full Dashboard</h3> 
