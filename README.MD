@@ -5,8 +5,7 @@
     <img src="images/karate.jpg" alt="Logo" width="500" height="200">
   </a>
   
-<h1 align="center">Computational Toxicology and Exposure Data APIs</h1>
-<h3 align="center">Performance Testing with Karate Framework</h3>
+<h1 align="center">Functional Testing with Karate Framework</h1>
 </div>
 <br>
 
