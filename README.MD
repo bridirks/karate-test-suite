@@ -12,7 +12,7 @@
 
 Karate framework follows the Cucumber style of writing the program which follows the BDD approach. The syntax is easy to understand by non-programmers. And this framework is the only API testing tool that has combined API Automation and performance testing into a single standalone tool.
 <br>
-We will be using Karate to perform Smoke, Regression, CORS, and Security tests on the CCTE APIs. All feature files are labeled with the appropriate Tags in order to more easily reference in Git Actions and Command Line. (differring from the previous use of directories for smaller tests). Existing test files are present for use on personal machines and will not be used in automation.
+We will be using Karate to perform Smoke and Regression tests. All feature files are labeled with the appropriate Tags in order to more easily reference in Git Actions and Command Line. These test files will provide examples on how to set up test cases for custom use.
 <br>
 <h3 align="center">Smoke Testing</h3>
 
