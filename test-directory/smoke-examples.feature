@@ -21,7 +21,7 @@ Feature: Feature file for giving examples of smoke tests
 
   Scenario: Testing a GET method with global url and given path with search variable in path
     Given path '/.../.../...'
-    And param variableName = 'item'
+    And param variableColumnName = 'item'
     When method GET
     Then status 200
     
