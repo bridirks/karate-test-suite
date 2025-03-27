@@ -1,5 +1,5 @@
-//Theoretically you would be able to take the out put of one http request and feed it direct into another
-//This would require the output of the first to be in compliance with the input of the second
+//Theoretically you would be able to take the output of one http request and feed it directly into another
+//This would require the output of the first to be in compliance with the input requirements of the second
 Feature: Feature file for inserting the result of one call into another
 
   Background:
