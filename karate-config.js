@@ -2,7 +2,6 @@ function() {
     var env = karate.env // get java system property from karate.env 'env'
   // can inject variables from ${{secrets}} when using Actions (see run-karate-tests.yml)
     var key = karate.properties['key'] 
-    var fake = karate.properties['fake'] 
   // can inject URLs from ${{secrets}} when using Actions (see run-karate-tests.yml)
     var secretDev = karate.properties['secretDev'].trim() 
     var secretStg = karate.properties['secretStg'].trim() 
