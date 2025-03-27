@@ -30,7 +30,7 @@ Feature files labeled `Regression` are being  split between two categories refer
 4. Navigate to the directory that contains the project folder (karate-demo) and run desired test file (smoke, regression, etc)
 
   ```sh
-  "Navigate to ccte-api-karate folder"
+  "Navigate to test-directory folder"
   ./run-smoke
   ```
 5. Results will be viewable in a dashboard by selecting the url given at the end of a test run<br><br>
