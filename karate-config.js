@@ -3,7 +3,7 @@ function() {
   // can inject variables from ${{secrets}} when using Actions (see run-karate-tests.yml)
     var key = karate.properties['key'] 
   // can inject URLs from ${{secrets}} when using Actions (see run-karate-tests.yml)
-    var secretDev = karate.properties['secretDev'].trim() 
+    var secretDev = karate.properties['secretDev'].trim()//need to trim inserted urls to avoid whitespace error
     var secretStg = karate.properties['secretStg'].trim() 
     karate.log('karate.env selected environment was:', env);
     
