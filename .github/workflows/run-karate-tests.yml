@@ -30,6 +30,8 @@ on:
         options:
         - smoke
         - regression
+        - data
+        - variables
 
 
 jobs:
