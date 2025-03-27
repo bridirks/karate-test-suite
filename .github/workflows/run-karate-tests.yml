@@ -49,7 +49,7 @@ jobs:
         distribution: 'oracle'
         
     - name: Run Karate with Java
-      run: java -Dkey=${{secrets.API_KEY}}  -DsecretDev=${{secrets.CLD}} -DsecretStg=${{secrets.CLS}} -jar karate-1.4.1.jar -t @${{ inputs.test }} -e ${{ inputs.env }} test-directory -o test-directory/target/
+      run: java -Dkey=${{secrets.API_KEY}}  -DsecretDev=${{secrets.secretDevUrl}} -DsecretStg=${{secrets.secretStgUrl}} -jar karate-1.4.1.jar -t @${{ inputs.test }} -e ${{ inputs.env }} test-directory -o test-directory/target/
 
  
   result:
