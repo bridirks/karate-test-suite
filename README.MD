@@ -27,7 +27,7 @@ Feature files labeled `Regression` are being  split between two categories refer
 1. Download the entire project as a zip (this will contain a copy of the standalone jar file)<br>
 2. Extract files to the location of your choice<br>
 3. Open the command prompt<br>
-4. Navigate to the directory that contains the project folder (karate-demo) and run desired test file (smoke, regression, etc)
+4. Navigate to the directory that contains the project folder (test-directory) and run desired test file (smoke, regression, etc)
 
   ```sh
   "Navigate to test-directory folder"
