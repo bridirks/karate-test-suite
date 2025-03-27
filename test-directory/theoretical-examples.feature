@@ -12,7 +12,7 @@ Feature: Feature file for inserting the result of one call into another
     Given path '/.../.../item'
     When method GET
     Then status 200
-    And def data = response.variableColumnName
+    And def data = response.variableName
 
     # Inserting data from a single search resource into a batch search resource
     Given url baseUrl + "/.../.../.../"
